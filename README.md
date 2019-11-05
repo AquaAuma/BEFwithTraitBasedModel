@@ -9,10 +9,10 @@ Authors: Aurore Maureaud, Ken H. Andersen, Lai Zhang, Martin Lindegren
 
 ### CODE FILES
 File 'code.figures.R'
-R Code to reproduce the figures of and analysesthe paper
+R Code to reproduce the figures and analyses of the paper
 
 File 'code.SI.r'
-R Code to reproduce the figures and analyses of the supplementary information
+R Code to reproduce the figures and analyses of the supplementary material
 
 
 ### DATA FILES
