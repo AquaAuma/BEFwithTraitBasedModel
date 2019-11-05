@@ -61,7 +61,7 @@ File 'SimulationsSmallAlpha.csv'
 # NS00001 - trait space threshold4
 
 
-File 'Species.Metrics.csv'
+File 'Species.Metrics1.Data' & 'Species.Metrics2.RData'
 
 # species - species numbers
 # habitat - coordinate on the habitat axis
