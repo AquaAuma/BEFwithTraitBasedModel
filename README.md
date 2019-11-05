@@ -18,4 +18,5 @@ R Code to reproduce the figures and analyses of the supplementary information
 ### DATA FILES
 File 'SimulationsHighAlpha.csv'
 File 'SimulationsSmallAlpha.csv'
-File 'Species.Metrics.csv'
+File 'Species.Metrics1.RData'
+File 'Species.Metrics2.RData'
