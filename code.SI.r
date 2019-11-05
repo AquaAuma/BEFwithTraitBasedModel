@@ -441,7 +441,9 @@ plot.PCA(res.pca, axes=c(1,2), choix='var')
 ###-----------------------------------------------------------------------------------
 ###-----------------------------------------------------------------------------------
 
-sss <- load('Species.Metrics.csv')
+load(ss1, file='Species.Metrics1.RData')
+load(ss2, file='Species.Metrics2.RData')
+sss <- rbind(ss1, ss2)
 
 ### Species biomass against predation loss, consumption in color
 sss$time <- 1/sss$PB
@@ -475,7 +477,9 @@ egg::ggarrange(ggloss.sp, ggloss.fw, labels=c('a', 'b'), ncol = 1, nrow = 2)
 ###-----------------------------------------------------------------------------------
 ###-----------------------------------------------------------------------------------
 
-sss <- load('Species.Metrics.csv')
+load(ss1, file='Species.Metrics1.RData')
+load(ss2, file='Species.Metrics2.RData')
+sss <- rbind(ss1, ss2)
 
 ### Species biomass against predation loss, consumption in color
 windows(90,90)
