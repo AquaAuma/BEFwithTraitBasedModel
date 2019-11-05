@@ -1,0 +1,76 @@
+Repository of code and data associated to 'Trait-based model reveals mechanisms underlying biodiversity-ecosystme functioning relationships'
+Authors: Aurore Maureaud, Ken H. Andersen, Lai Zhang, Martin Lindegren
+
+
+### CODE FILES
+File 'code.figures.R'
+R Code to reproduce the figures of and analysesthe paper
+
+File 'code.SI.r'
+R Code to reproduce the figures and analyses of the supplementary information
+
+
+### DATA FILES
+File 'SimulationsHighAlpha.csv'
+
+# run ID
+# homerange - C is alpha=2
+# poolsize - number of species in initial pool
+# sr - species richness
+# biomass - biomass of all species in the food web
+# evesimpson - Simpson's evenness based on species biomass
+# evesimspon.ab - Simpson's evenness based on species abundances
+# metab - metabolism rate of all spp
+# gainr - production rate of all spp
+# PB1 - production/biomass
+# maxTL - maximum trophic level
+# meanTL - mean trophic level
+# connectance - number of links/number of spp
+# top - number of top-predator(s) in the food web
+# max.prop - biomass proportion occupied by the dominance spp
+# B.dom - biomass of the dominant spp
+# propR.used - proportion of the resource used in the food web
+# NS01 - trait space threshold1
+# NS001 - trait space threshold2
+# NS0001 - trait space threshold3
+# NS00001 - trait space threshold4
+
+
+File 'SimulationsSmallAlpha.csv'
+
+# run ID
+# homerange - A is alpha=0.5
+# poolsize - number of species in initial pool
+# sr - species richness
+# biomass - biomass of all species in the food web
+# evesimpson - Simpson's evenness based on species biomass
+# evesimspon.ab - Simpson's evenness based on species abundances
+# metab - metabolism rate of all spp
+# gainr - production rate of all spp
+# PB1 - production/biomass
+# maxTL - maximum trophic level
+# meanTL - mean trophic level
+# connectance - number of links/number of spp
+# top - number of top-predator(s) in the food web
+# max.prop - biomass proportion occupied by the dominance spp
+# B.dom - biomass of the dominant spp
+# propR.used - proportion of the resource used in the food web
+# NS01 - trait space threshold1
+# NS001 - trait space threshold2
+# NS0001 - trait space threshold3
+# NS00001 - trait space threshold4
+
+
+File 'Species.Metrics.csv'
+
+# species - species numbers
+# habitat - coordinate on the habitat axis
+# size - coordinate on the size axis
+# biomass - biomass of the species
+# PB - production/biomass ratio of the species
+# metab - metabolism of the species
+# Consumtpion - consumption rate of the species
+# PredLoss - predation loss experiences by the species
+# runs - runID
+# homrange - A corresponds to alpha=0.5
+# pool - number of species in initial pool
