@@ -157,10 +157,9 @@ dat4 <- subset(dat3, sr>1)
 dat4$sr2 <- (dat4$sr-mean(dat4$sr))^2
 dat4$NS2 <- (dat4$NS00001-mean(dat4$NS00001))^2
 
-Dominance <- data.frame(dat4$evesimpson, dat4$B.dom, dat4$max.prop, dat4$evesimpson.ab)
+Dominance <- data.frame(dat4$evesimpson, dat4$B.dom, dat4$max.prop)
 Horizon <- data.frame(dat4$sr, dat4$sr2)
 Vertical <- data.frame(dat4$maxTL, dat4$meanTL, dat4$connectance, dat4$top)
-Trait <- data.frame(dat4$NS00001, dat4$NS2)
 var.modB <- varpart(dat4$biomass, Dominance, Horizon, Vertical, dat4$NS00001)
 
 
@@ -186,10 +185,9 @@ dat4$sr2 <- (dat4$sr-mean(dat4$sr))^2
 dat4$NS2 <- (dat4$NS00001-mean(dat4$NS00001))^2
 dat4$top2 <- (dat4$top - mean(dat4$top))^2
 
-Dominance <- data.frame(dat4$evesimpson, dat4$B.dom, dat4$max.prop, dat4$evesimpson.ab)
+Dominance <- data.frame(dat4$evesimpson, dat4$B.dom, dat4$max.prop)
 Horizon <- data.frame(dat4$sr, dat4$sr2)
 Vertical <- data.frame(dat4$maxTL, dat4$meanTL, dat4$connectance, dat4$top, dat4$top2)
-Trait <- data.frame(dat4$NS00001, dat4$NS2)
 var.modM <- varpart(dat4$metab, Dominance, Horizon, Vertical, dat4$NS00001)
 
 
@@ -215,10 +213,9 @@ dat4$sr2 <- (dat4$sr-mean(dat4$sr))^2
 dat4$NS2 <- (dat4$NS00001-mean(dat4$NS00001))^2
 dat4$max.prop2 <- (dat4$max.prop-mean(dat4$max.prop))^2
 
-Dominance <- data.frame(dat4$evesimpson, dat4$B.dom, dat4$max.prop, dat4$evesimpson.ab, dat4$max.prop2)
+Dominance <- data.frame(dat4$evesimpson, dat4$B.dom, dat4$max.prop,dat4$max.prop2)
 Horizon <- data.frame(dat4$sr, dat4$sr2)
 Vertical <- data.frame(dat4$maxTL, dat4$meanTL, dat4$connectance, dat4$top)
-Trait <- data.frame(dat4$NS00001, dat4$NS2)
 var.modP <- varpart(dat4$gainr, Dominance, Horizon, Vertical, dat4$NS00001)
 
 
@@ -244,10 +241,9 @@ dat4$sr2 <- (dat4$sr-mean(dat4$sr))^2
 dat4$NS2 <- (dat4$NS00001-mean(dat4$NS00001))^2
 dat4$max.prop2 <- (dat4$max.prop-mean(dat4$max.prop))^2
 
-Dominance <- data.frame(dat4$evesimpson, dat4$B.dom, dat4$max.prop, dat4$evesimpson.ab, dat4$max.prop2)
+Dominance <- data.frame(dat4$evesimpson, dat4$B.dom, dat4$max.prop, dat4$max.prop2)
 Horizon <- data.frame(dat4$sr, dat4$sr2)
 Vertical <- data.frame(dat4$maxTL, dat4$meanTL, dat4$connectance, dat4$top)
-Trait <- data.frame(dat4$NS00001, dat4$NS2)
 var.modPB <- varpart(dat4$PB1, Dominance, Horizon, Vertical, Trait)
 
 # Plot all models
